@@ -4,5 +4,30 @@
     "name": "Example Author",
     "url": "https://example.com"
   },
-  "templates": []
+  "templates": [
+    {
+      "id": "customerscore-hubspot",
+      "name": "customerscore-hubspot",
+      "description": "Full workflow to ...",
+      "requirements": {
+        "backends": null,
+        "components": null,
+        "features": null
+      },
+      "path": "customerscore-hubspot",
+      "versions": [
+        {
+          "version": "0.0.1",
+          "description": "",
+          "stable": false,
+          "components": [
+            "keboola.snowflake-transformation",
+            "keboola.variables",
+            "kds-team.ex-hubspot-v2"
+          ],
+          "path": "v0"
+        }
+      ]
+    }
+  ]
 }
